@@ -123,8 +123,7 @@
 						freedom = 'CaptainCloudVegas.jpg';
 						http1.open("PUT", url1, true);
 						http1.setRequestHeader("Content-type", "application/json");
-						http1
-						http1.send(JSON.stringify(data))
+						http1.send(JSON.stringify(data));
 						new_message = "AND WE'RE OUT!!!";
                     	document.getElementById('CapCloud').src=freedom;
                     	document.getElementById('Freedom').innerHTML=new_message;
